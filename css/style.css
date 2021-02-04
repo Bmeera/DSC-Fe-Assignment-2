@@ -1,0 +1,6 @@
+header .d-flex {
+    justify-content :space-between;
+}
+#cta {
+    border: 1px solid #fff;
+}
