@@ -1,6 +1,12 @@
 header .d-flex {
     justify-content :space-between;
 }
+header ul {
+    margin-right:0;
+}
+.navbar {
+    border-bottom: 2px solid #A6A7A0;
+}
 #cta {
     border: 1px solid #fff;
 }
