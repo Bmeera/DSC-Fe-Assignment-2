@@ -12,8 +12,8 @@ header ul {
     padding: 0 .5em;
     margin-left: .3em;
 }
-.carousel {
-    margin-top: 2em;
+header {
+    margin-bottom: 2em;
 }
 .info {
     margin: 5em 0;
@@ -30,17 +30,18 @@ header ul {
     background-color: #fff;
     padding: 5em;
     border: 1px solid black;
-   
+
 }
 .contact-us h3 {
     background-color: #000;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     padding: .5em;
     color: #c4c4c4;
     
 }
-form{
+form,
+.product-nav {
     margin: 2em 0;
 }
 form button[type="submit"] {
@@ -59,6 +60,24 @@ footer .logo {
 footer span {
     color: rgba(0,0,0,.55);
 }
+.page-link {
+    color: #000;
+}
+.pagination .active .page-link{
+    background-color: #000;
+    border-color: #000;
+}
+.page-link:hover{
+    color: #000;
+}
+.coming-soon {
+    text-transform: uppercase;
+    text-align: center;
+    height: 50vh
+}
+
+
+
 @media (max-width: 600px){
 
     .contact-us h3{
